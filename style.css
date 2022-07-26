@@ -1,0 +1,42 @@
+#jumbotron {
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about {
+  background-image: url(img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+#service {
+  background-image: url(img/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contact {
+  background-image: url(img/bg4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  margin-bottom: 15px;
+}
+#ind {
+  cursor: pointer;
+}
+#ing {
+  cursor: pointer;
+}
+section {
+  padding-top: 30px;
+}
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin-left: 250px;
+  }
+  .card {
+    width: 18rem;
+    margin-bottom: 15px;
+  }
+}
